@@ -44,4 +44,6 @@ Abrimos una terminal CMD como administrador y nos situamos en el directorio dond
 9. Para ejecutar otra vez la aplicación, ejecutar los pasos 4-8 ambos incluidos.
 
 (OPCIONAL): Se puede eliminar imágenes y contenedores como en el paso 2 antes de ejecutar el paso 3 o 4 para una mayor claridad.
-  
+
+Se puede cambiar el contenido del dockerfile (se puede abrir con la app bloc de notas) para que ejecute la prueba unitaria:
+	Cambiar CMD  python3 interfaz.py por CMD  python3 prueba_unitaria.py y guardar. Ejecutar los pasos anteriores desde el principio.
