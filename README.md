@@ -5,7 +5,7 @@ MANUAL DE EJECUCIÓN DE LA APLICACIÓN
 Para la realización de los siguientes pasos es imprescindible tener descargado un Docker.
 Pasos a realizar para la correcta ejecución del programa:
 
-- WINDOWS:
+- PASOS:
 Abrimos una terminal CMD como administrador y nos situamos en el directorio donde está el proyecto.
 
 1. Comprobar si existen contenedores o imágenes previas:
