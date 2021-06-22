@@ -26,7 +26,7 @@ Abrimos una terminal CMD como administrador y nos situamos en el directorio dond
   
 3. Crear imagen:
 
-  		docker build -t nombreimagen:version .
+  		docker build -t nombreimagen:version . (Añadir ./ al final si hubiera problemas con el path)
 
  	Ejemplo: docker build -t tembloresencial:4 .
   
