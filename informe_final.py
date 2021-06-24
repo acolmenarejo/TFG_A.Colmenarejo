@@ -29,7 +29,7 @@ def analisis(nombre_espiral, visualizacion, modalidad):
         ax4.axis('off')
 
         fig.suptitle('Análisis: ' + nombre + '(' + visualizacion + ')' + '-Modalidad:' + str(modalidad), size=16)
-        plt.savefig('Informe/Analisis- ' + nombre + '-' + visualizacion + '-' + 'Modalidad-' + str(modalidad) + '.jpg', dpi=200)
+        plt.savefig('Informe/Analisis_' + nombre + '_' + visualizacion + '_' + 'Modalidad_' + str(modalidad) + '.jpg', dpi=200)
         plt.show()
     else:
         img1 = mpimg.imread('resultados/Single-' + nombre + '-final.jpg')
@@ -53,7 +53,7 @@ def analisis(nombre_espiral, visualizacion, modalidad):
         ax4.axis('off')
 
         fig.suptitle('Análisis: ' + nombre + '(' + visualizacion + ')' + '-Modalidad:' + str(modalidad), size=12)
-        plt.savefig('Informe/Analisis- ' + nombre + '-' + visualizacion + '-' + 'Modalidad-' + str(modalidad) + '.jpg', dpi=200)
+        plt.savefig('Informe/Analisis_' + nombre + '_' + visualizacion + '_' + 'Modalidad_' + str(modalidad) + '.jpg', dpi=200)
         plt.show()
     print(f'Informe {nombre} generado. Compruebe la carpeta /Informe')
 
