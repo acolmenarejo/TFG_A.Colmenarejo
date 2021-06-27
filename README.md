@@ -5,6 +5,9 @@ MANUAL DE EJECUCIÓN DE LA APLICACIÓN
 Para la realización de los siguientes pasos es imprescindible tener descargado un Docker.
 Pasos a realizar para la correcta ejecución del programa:
 
+IMPORTANTE: Aunque haya un menú, se debe escribir la opción 4 salir y volver a ejecutar tras cada iteracción. NO EJECUTAR DOS COMANDOS OPCIONES DEL MENÚ SIN ANTES SALIR.
+
+
 - PASOS:
 Abrimos una terminal CMD como administrador y nos situamos en el directorio donde está el proyecto.
 
@@ -22,7 +25,7 @@ Abrimos una terminal CMD como administrador y nos situamos en el directorio dond
 
  		docker image rm {IMAGE ID}
   
-  (Contanier id e image id se obtienen del paso 1)
+  (Container id e image id se obtienen del paso 1)
   
 3. Crear imagen:
 
