@@ -22,7 +22,7 @@ Abrimos una terminal CMD como administrador y nos situamos en el directorio dond
 
  		docker image rm {IMAGE ID}
   
-  (Contanier id e image id se obtienen del paso 1)
+  (Container id e image id se obtienen del paso 1)
   
 3. Crear imagen:
 
