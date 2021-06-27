@@ -7,6 +7,7 @@ if __name__ == '__main__':
 
     while True:
         print('Elige el proceso...\n')
+
         opciones = [dict(valor='1', descripcion='Informe de Tratado vs No tratado'),
                     dict(valor='2', descripcion='Informe de un hemicuerpo'),
                     dict(valor='3', descripcion='Informe individual de espirales'),
@@ -38,7 +39,6 @@ if __name__ == '__main__':
             if seleccionado['valor'] in ['0']:
                 pass
             elif proceso_a_ejecutar == '1':
-
                 main(1, ruta, file_name, "juntas")
             elif proceso_a_ejecutar == '2':
 

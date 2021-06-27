@@ -1,6 +1,5 @@
 import csv
 import sys
-import pathlib
 from scipy import stats
 from sklearn.linear_model import LinearRegression
 import re
@@ -134,6 +133,7 @@ def main(modalidad, ruta, file_name, visualizacion):
     # Espirales juntas
     if visualizacion == 'juntas':
         plt.cla()
+        plt.clf()
         # Representacion de 3 espirales en polares
         for each_espiral in espiral_a_juntar.espiral.unique():
             each_espiral.astype(int)
@@ -148,7 +148,8 @@ def main(modalidad, ruta, file_name, visualizacion):
         plt.legend(loc="upper left")
         plt.savefig(f'resultados/Grados-Radio' + file_name + '-JUNTAS.jpg', dpi=200)
         plt.show()
-
+        plt.cla()
+        plt.clf()
         contador_espirales = 0
         fig, axs = plt.subplots(1, 2, tight_layout=True)
         # Representacion 3 espirales
@@ -306,7 +307,7 @@ def visualizo_polares(normalized_puntos):
 
 def calcular_error(espiral, nombres_espirales, numero_espiral):
     # Calculo regresion
-    plt.gca()
+    plt.cla()
     plt.clf()
     grados = espiral['ang_grados'].values.reshape(-1, 1)
     modulo = espiral['r'].values.reshape(-1, 1)
@@ -341,7 +342,7 @@ def calcular_error(espiral, nombres_espirales, numero_espiral):
     axs[1].set_title('Histograma del error', fontsize=14)
     plt.savefig(f'resultados/Error-{nombres_espirales[numero_espiral]}.jpg', dpi=200)
     plt.show()
-    plt.gca()
+    plt.cla()
     plt.clf()
 
 
