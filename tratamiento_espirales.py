@@ -12,6 +12,7 @@ from sklearn.neighbors import NearestCentroid
 from analisis_tiempo import cargar_tiempo
 
 nombres = []
+
 pd.options.mode.chained_assignment = None  # default='warn'
 
 
@@ -19,6 +20,7 @@ def cargar_directorio(ruta):
     # Cargo todos los archivos que empiecen por 'TE'
     dataDir = ruta
     mats = []
+    nombres.clear()
     directorio_todo = []
     i = 0
 

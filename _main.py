@@ -358,3 +358,4 @@ def visualizo_separadas(espiral_grados, nombres_espirales, file_name, visualizac
 
 
 # main(2, 'Data - total/', 'TE02_02_spiral_treated', 'juntas')
+
